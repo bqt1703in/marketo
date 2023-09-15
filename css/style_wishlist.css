@@ -1,0 +1,157 @@
+.main .title {
+  background-color: #fafafa;
+  padding: 30px 0;
+  margin-top: 50px;
+}
+
+.main .title .container .nav ul li {
+  color: #222;
+  padding-right: 20px;
+}
+
+.main .table-wishlist {
+  border-collapse: collapse;
+  margin: 40px auto;
+  width: 85%;
+}
+
+.main .table-wishlist td, .main .table-wishlist th, .main .table-wishlist tr {
+  border: 1px solid #e7e7e7;
+  padding: 10px 40px;
+  text-align: center;
+}
+
+.main .table-wishlist td {
+  position: relative;
+}
+
+.main .table-wishlist a, .main .table-wishlist span {
+  text-align: center;
+  color: #007bff;
+  cursor: pointer;
+}
+
+.main .table-wishlist .preview-product {
+  color: #007bff;
+}
+
+.main .table-wishlist .product-remove .btn-delete {
+  color: red;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.main .table-wishlist .product-remove .btn-delete:hover {
+  background-color: red;
+  color: white;
+}
+
+i.fa-chevron-down {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  font-size: 13px;
+  color: #222;
+  line-height: 100%;
+  display: inline-block;
+}
+
+.result-search {
+  display: none;
+  position: absolute;
+  left: 404px;
+  z-index: 2;
+  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background-color: white;
+  border-radius: 3px;
+}
+
+.result-search .row {
+  position: relative;
+  z-index: -2;
+  margin: 0 auto;
+  width: 856.5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.result-search .row li {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(204, 204, 204, 0.2);
+  width: 50%;
+}
+
+.result-search .row li a {
+  padding: 8px;
+}
+
+.result-search .row li a img {
+  position: relative;
+  z-index: -1;
+  width: 20%;
+}
+
+.result-search .row li a .content {
+  width: 80%;
+  padding-left: 20px;
+}
+
+.result-search .row li a .content .name {
+  padding: 10px 0;
+  font-weight: bold;
+}
+
+.result-search .row li a .content .price {
+  color: #0063d1;
+  font-weight: bold;
+}
+
+.result-search .row li:hover {
+  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.result-search .btn-view-more {
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  height: 128px;
+  display: none;
+}
+
+.result-search .btn-view-more .view-more {
+  cursor: pointer;
+  width: 160px;
+  margin: 35px 0;
+  padding: 15px 40px;
+  border: 2px solid black;
+  border-radius: 2px;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+body {
+  position: relative;
+}
+/*# sourceMappingURL=style_wishlist.css.map */

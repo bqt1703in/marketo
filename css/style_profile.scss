@@ -1,0 +1,167 @@
+.main {
+    margin-top: 200px;
+    margin-bottom: 200px;
+    .container {
+        display: flex;
+        width: 85%;
+        margin: 0 auto;
+        .menu-left {
+            width: 20%;
+            height: 500px;
+        
+            .ava {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .avatarUser {
+                    width: 100px;
+                    height: 100px;
+                    font-size: 50px;
+                    background-color: #0056b3;
+                    text-align: center;
+                    line-height: 100px;
+                    border-radius: 50%;
+                    color: white;
+                }
+                .loginName {
+                    padding: 10px 0;
+                    color: #0056b3;
+                    
+                }
+            }
+            .item {
+                padding: 15px 0;
+                font-size: 15px;
+                cursor: pointer;
+                font-weight: bold;
+            }
+        }
+        .menu-right {
+            width: 80%;
+            height: 500px;
+            padding-left: 140px;
+            border-left: 2px solid rgba(0, 0, 0, 0.2);
+
+            .update-profile {
+                // display: none;
+                margin-left: 100px;
+                .login-info {
+                    padding: 15px 0;
+                    margin-bottom: 20px;
+                    font-size: 18px;
+                    font-weight: bold;
+                    color: #0056b3;
+                }
+                .bill {
+                    margin-top: 60px;
+                }
+                .d-flex {
+                    width: 600px;
+                    border-top: 2px solid rgba(0, 0, 0, 0.2);
+                    padding: 15px 0;
+                    
+                    label {
+                        width: 220px;
+                        color: rgba(0, 0, 0, 0.4);
+                        position: relative;
+                        &::after {
+                            content: '';
+                            position: absolute;
+                            background-color: rgba(0, 0, 0, 0.2);
+                            width: 2px;
+                            height: 25px;
+                            left: 100%;
+                            top: 50%;
+                            transform: translateY(-50%);
+                        }
+                        
+                    }
+                    input {
+                        padding-left: 20px;
+                    }
+                }
+                .end {
+                    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+
+                }
+                .save, .dont {
+                    padding: 8px 40px;
+                    background-color: #0056b3;
+                    margin-right: 20px;
+                    margin-top: 20px;
+                    color: white;
+                    font-weight: bold;
+                    border-radius: 15.75px;
+                    cursor: pointer;
+
+                }
+            }
+            .purchase-history {
+                display: none;
+                .bill {
+                    .item {
+                        margin-bottom: 10px;
+                        .img {
+                            width: 15%;
+                        }
+                        .content {
+                            width: 55%;
+                        }
+                        .total {
+                            width: 15%;
+                        }
+                        .repurchase {
+                            width: 15%;
+                        }
+                    }
+                }
+                .img, .content, .total {
+                    border-right: 2px solid rgba(0, 0, 0, 0.2);
+                }
+            }
+        }
+    }
+
+}
+
+.yes-no {   
+    display: none;
+    width: 500px;
+    height: 250px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 3;
+    .content {
+        padding: 50px 10px;
+        margin-bottom: 50px;
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .option {
+        button {
+            
+            padding: 15px 30px;
+            margin: 10px;
+            color: white;
+            cursor: pointer;
+        }
+        .yes {
+            background-color: #fed700;
+        }
+        .no {
+            background-color: #e74c3c;
+        }
+       
+    }
+   
+}
+
+   

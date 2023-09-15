@@ -1,0 +1,196 @@
+.main {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.main .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.main .container .menu-left {
+  width: 20%;
+  height: 500px;
+}
+
+.main .container .menu-left .ava {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .container .menu-left .ava .avatarUser {
+  width: 100px;
+  height: 100px;
+  font-size: 50px;
+  background-color: #0056b3;
+  text-align: center;
+  line-height: 100px;
+  border-radius: 50%;
+  color: white;
+}
+
+.main .container .menu-left .ava .loginName {
+  padding: 10px 0;
+  color: #0056b3;
+}
+
+.main .container .menu-left .item {
+  padding: 15px 0;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.main .container .menu-right {
+  width: 80%;
+  height: 500px;
+  padding-left: 140px;
+  border-left: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.main .container .menu-right .update-profile {
+  margin-left: 100px;
+}
+
+.main .container .menu-right .update-profile .login-info {
+  padding: 15px 0;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #0056b3;
+}
+
+.main .container .menu-right .update-profile .bill {
+  margin-top: 60px;
+}
+
+.main .container .menu-right .update-profile .d-flex {
+  width: 600px;
+  border-top: 2px solid rgba(0, 0, 0, 0.2);
+  padding: 15px 0;
+}
+
+.main .container .menu-right .update-profile .d-flex label {
+  width: 220px;
+  color: rgba(0, 0, 0, 0.4);
+  position: relative;
+}
+
+.main .container .menu-right .update-profile .d-flex label::after {
+  content: '';
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 2px;
+  height: 25px;
+  left: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.main .container .menu-right .update-profile .d-flex input {
+  padding-left: 20px;
+}
+
+.main .container .menu-right .update-profile .end {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.main .container .menu-right .update-profile .save, .main .container .menu-right .update-profile .dont {
+  padding: 8px 40px;
+  background-color: #0056b3;
+  margin-right: 20px;
+  margin-top: 20px;
+  color: white;
+  font-weight: bold;
+  border-radius: 15.75px;
+  cursor: pointer;
+}
+
+.main .container .menu-right .purchase-history {
+  display: none;
+}
+
+.main .container .menu-right .purchase-history .bill .item {
+  margin-bottom: 10px;
+}
+
+.main .container .menu-right .purchase-history .bill .item .img {
+  width: 15%;
+}
+
+.main .container .menu-right .purchase-history .bill .item .content {
+  width: 55%;
+}
+
+.main .container .menu-right .purchase-history .bill .item .total {
+  width: 15%;
+}
+
+.main .container .menu-right .purchase-history .bill .item .repurchase {
+  width: 15%;
+}
+
+.main .container .menu-right .purchase-history .img, .main .container .menu-right .purchase-history .content, .main .container .menu-right .purchase-history .total {
+  border-right: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.yes-no {
+  display: none;
+  width: 500px;
+  height: 250px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-color: white;
+  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 3;
+}
+
+.yes-no .content {
+  padding: 50px 10px;
+  margin-bottom: 50px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.yes-no .option button {
+  padding: 15px 30px;
+  margin: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.yes-no .option .yes {
+  background-color: #fed700;
+}
+
+.yes-no .option .no {
+  background-color: #e74c3c;
+}
+/*# sourceMappingURL=style_profile.css.map */

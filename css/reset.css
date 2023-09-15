@@ -1,0 +1,38 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+input, button {
+    outline: none;
+    border: none;
+    background: none;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+.d-flex {
+    display: flex;
+}
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+html {
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    position: relative;
+}
