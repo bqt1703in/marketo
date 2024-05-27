@@ -7,7 +7,7 @@ var products = [
         name: 'Gray T-shirt',
         img: '/img/men/26-1.png',
         price: 20,
-        category: 'men',
+        category: 'mobile',
         rating: 4,
         detail: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quod perspiciatis incidunt modi cum vitae temporibus consectetur quibusdam saepe explicabo esse aliquam quo atque optio, fugit praesentium inventore quas tempora.'
     },
@@ -16,7 +16,7 @@ var products = [
         name: 'Cricle White T-shirt',
         img: '/img/men/33-1.png',
         price: 24,
-        category: 'men',
+        category: 'mobile',
         rating: 4,
         detail: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor minus et quam iure nihil, eius optio esse reprehenderit culpa molestiae accusantium modi fugit excepturi veniam soluta, facere natus ipsam ratione?'
     },
